@@ -1,0 +1,301 @@
+body{
+	margin:0;
+	padding:0;
+	background:#FFF;
+	background-image: url('../img/bg-geral.jpg');
+    background-position: 20px left;
+    background-repeat: no-repeat;
+}
+img{
+	display:block;
+}
+
+p{
+	padding:0;
+	margin:30px 0;
+}
+
+#box-content{
+	width:100%;
+	float:left;
+    min-height:830px;
+    border:0px solid red;
+}
+
+
+#box-header{
+	width:70%;
+	padding:18px 15%;
+	border-bottom:1px solid #FFF;
+	background:#F3F3F3;
+	box-shadow:0 2px 4px #ddd;
+}
+
+
+#box-footer{
+	width:100%;
+	float:left;
+	text-align:center;
+	font:normal 0.8em 'Muli', sans-serif;
+	color:#555;
+	padding:100px 0 50px 0;
+    position: relative;
+	bottom: 0;
+    border: 0px solid red;
+}
+
+
+
+.cleantop{
+	margin-top:0 !important;
+}
+.cleanbottom{
+	margin-bottom:0 !important;
+}
+
+.cleantopbottom{
+	margin-bottom:0 !important;
+	margin-top:0 !important;
+}
+
+
+
+.bar-color{
+	width:100%;
+	height:2px;
+	float:left;
+	background-image:linear-gradient(to right, #ec268f, #f58634 , #0a8a9c);
+	margin:40px 0; 
+}
+
+
+
+
+.bar-silver{
+  	width:100%;
+	height:1px;
+	float:left;
+	background:#ccc;
+	margin:40px 0 20px 0; 
+    text-align: center;
+    color: #555;
+}
+
+
+.ico-down{
+    color: #ccc;
+    background:#F0F0F0;
+    margin-top: -12px;
+}
+
+
+.icon-busca{
+	margin-right:10px;
+}
+
+
+
+.logo{
+	height:65px;
+}
+
+
+.logo-footer{
+	width:120px;
+	display:block;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+
+.box-content{
+	width:620px;
+	margin:0 auto;
+	display:grid;
+	border:0px solid red;
+	padding-top:80px;
+}
+
+
+.box-group{
+	width:84%;
+	background:#F3F3F3;
+	margin:0 auto;
+	display:grid;
+	padding:8%;
+	border-radius:18px;
+}
+
+
+.title-black{
+	font:normal 1.5em 'Montserrat', sans-serif;
+	color:#4A5261;
+	border-left:5px solid #0A8A9C;
+	padding-left:10px;
+}
+
+
+.name-black{
+	font:normal 1.2em 'Montserrat', sans-serif;
+	color:#4A5261;
+	float:left;
+	width:70%;
+}
+
+
+.text-black{
+    font:normal 1em 'Muli', sans-serif;
+	color:#4A5261;
+	line-height:25px;
+}
+
+
+.text-leg{
+    font:normal 0.8em 'Muli', sans-serif;
+	color:#4A5261;
+	line-height:25px;
+	letter-spacing:2px;
+}
+
+.text-h4-black{
+    font:normal 1.2em 'Muli', sans-serif;
+	color:#4A5261;
+	line-height:32px;
+}
+
+
+.text-h4-bold{
+	color:#4A5261;
+	line-height:32px; 
+    font-family:'Montserrat', sans-serif;
+    font-weight:800;
+}
+
+
+.bloco-item{
+	background:#FFF;
+	padding:2%;
+	margin:20px 0;
+	box-shadow:0 2px 2px #ddd;
+	float:left;
+	width:96%;
+}
+
+.logo-item{
+	width:110px;
+	height:110px;
+	background:#eee;
+	float:left;
+	margin-right:15px;
+	border:1px solid #CCC;
+}
+
+
+
+
+/****** FORM  ******/
+
+label{
+	font:normal 0.9em 'Muli', sans-serif;
+	color:#666;
+	margin:15px 0 3px 0;
+	float:left;
+	width:100%;
+}
+
+
+.input-large{
+	background:#FFF;
+	padding:12px 3%;
+	width:94%;
+	border:1px solid #DDD;
+	font:normal 1em 'Muli', sans-serif;
+}
+
+.input-medium{
+	background:red;
+}
+
+.input-narrow{
+	background:red;
+}
+
+.button{
+	padding:18px 45px;
+    background:#0a8a9c;
+	border:0;
+	border-radius:6px;
+	color:#fff;
+	font:normal 1em 'Montserrat', sans-serif;
+	box-shadow:0px 2px 3px #999;
+	transition:all 0.2s ease;
+	opacity:1;
+	width:40%;
+	margin:20px 0;
+}
+button.button:hover{
+	padding:18px 45px;
+	background:#4a5261;	
+	border:0;
+	border-radius:6px;
+	color:#fff;
+	font:normal 1em 'Montserrat', sans-serif;
+	cursor:pointer;
+}
+
+
+
+
+.submit{
+	padding:18px 45px;
+    background:#0a8a9c;
+	border:0;
+	border-radius:6px;
+	color:#fff;
+	font:normal 1em 'Montserrat', sans-serif;
+	box-shadow:0px 2px 3px #999;
+	transition:all 0.2s ease;
+	opacity:1;
+	width:40%;
+	margin:20px 0;
+}
+input.submit:hover{
+	padding:18px 45px;
+	background:#4a5261;	
+	border:0;
+	border-radius:6px;
+	color:#fff;
+	font:normal 1em 'Montserrat', sans-serif;
+	cursor:pointer;
+}
+
+
+
+
+
+.input-checked{
+	cursor:pointer;
+	float:left;
+	margin-right:12px;
+}
+
+
+.btn-item{
+	padding:13px 15px;
+	background:#FFF;
+	border:1px solid #0A8A9C;
+	border-radius:5px;
+	color:#0A8A9C;
+	font:600 0.9em 'Muli', sans-serif;
+	transition:all 0.2s ease;
+	opacity:1;
+	width:40%;
+    cursor: pointer;
+    margin:20px 0;
+}
+button.btn-item:hover{
+    background: #0A8A9C;
+    color: #fff;
+}
+
+
+/****** FORM  ******/
