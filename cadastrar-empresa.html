@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>I BIG BOSS</title>
+		<link rel="stylesheet" href="css/web.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Muli:wght@300&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		<script type="text/javascript" charset="UTF-8" src="js/all.js"></script>
+	</head>
+	
+	<body>
+		
+		<section id="box-content">
+			
+			<header id="box-header">
+				<img src="img/logo-ibigboss-color.png" class="logo" />
+			</header>
+			
+			<div class="bar-black"></div>
+			
+			<section class="box-content">
+				
+				<p class="title-black cleantop">Cadastrar Empresa</p>
+				<div class="box-group">
+					
+					<label class="top-clean cleantop">Nome Fantasia</label>
+					<input class="input-large" type="text" name="nome" />
+					
+					
+					<label>Razão Social</label>
+					<input class="input-large" type="text" name="razaoSocial" />
+					
+					<label>CNPJ</label>
+					<input class="input-large" name="cnpj" onkeyup="javascript:somente_numero(this);" onkeypress="mascara(this,'##.###.###/####-##')" maxlength="18" />
+					
+					<label>Email</label>
+					<input class="input-large" name="email" type="text" />
+					
+					<label>Desconto</label>
+					<input id="date" name="dataNascimento" class="input-large" type="text">
+					
+					<label>DotBack</label>
+					<input id="date" name="dataNascimento" class="input-large" type="text">
+					
+					<label>Logradouro</label>
+					<input class="input-large" type="text" name="logradouro" />
+
+					<label class="label">Número</label>
+					<input class="input-large" onkeyup="javascript:somente_numero(this);" type="text" name="num" />
+					
+					<label class="label">Complememto</label>
+					<input class="input-large" name="cep" type="text" />
+					
+					<label class="label">Bairro</label>
+					<input class="input-large" type="text" name="bairro" />
+							
+					
+					<label class="label">Estado</label>
+					<input class="input-large" type="text" maxlength="2" name="UF" />
+					
+					<label class="label">Cidade</label>
+					<input class="input-large" type="text" name="cidade" />
+					
+					
+					<label class="label">Detalhes</label>
+					<textarea class="input-large" maxlength="5"></textarea>
+					
+					
+					<p class="cleanbottom">
+						<input type="submit" onclick="window.location.href='gerar-cupom.html'" value="SALVAR" class="submit cleantopbottom" />
+					</p>
+				</div>
+			</section>
+			
+		</section>
+        <footer id="box-footer">
+            I BIG BOSS - Copyright © 2020 - Todos os direitos reservados
+		</footer>
+		
+	</body>
+</html>
