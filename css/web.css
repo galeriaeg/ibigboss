@@ -44,7 +44,11 @@ p{
     border: 0px solid red;
 }
 
-
+#box-menu{
+	float:right;
+	height:auto;
+	padding:22.5px;
+}
 
 .cleantop{
 	margin-top:0 !important;
@@ -92,6 +96,14 @@ p{
 .icon-busca{
 	margin-right:10px;
 }
+
+
+.icon-pass{
+	margin-top:15px;
+	float:left;
+	width:30px;
+	cursor:pointer;
+}	
 
 
 
@@ -190,7 +202,16 @@ p{
 }
 
 
-
+.a-txt{
+	font:normal 1em 'Muli', sans-serif;
+	color:#0a8a9c;
+	text-decoration:none;
+	margin:0 10px;
+}
+a.a-txt:hover{
+	color:#0a8a9c;
+	text-decoration:underline;
+}
 
 /****** FORM  ******/
 
@@ -252,7 +273,7 @@ button.button:hover{
 	border-radius:6px;
 	color:#fff;
 	font:normal 1em 'Montserrat', sans-serif;
-	box-shadow:0px 2px 3px #999;
+	box-shadow:0px 2px 3px #ccc;
 	transition:all 0.2s ease;
 	opacity:1;
 	width:40%;
