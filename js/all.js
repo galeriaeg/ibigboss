@@ -11,19 +11,6 @@ function padrão(valor_campo){
 
 
 
-//EXIBE E OCULTA SENHA
-function pass(){
-	var p = document.getElementById("senha").type;
-	
-	if(p == "password"){
-		document.getElementById("senha").type="text";
-		document.getElementById("icoPass").src="img/icon-senha.png";
-	}
-	else{
-		document.getElementById("senha").type="password";
-		document.getElementById("icoPass").src="img/icon-senha-off.png";
-	}
-}
 
 
 
