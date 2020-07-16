@@ -1,2 +1,0 @@
-# ibigboss
-html+css+js
