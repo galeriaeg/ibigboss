@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8"/>
+		<title>I BIG BOSS</title>
+		<link rel="stylesheet" href="../css/web.css">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Muli:wght@300&display=swap" rel="stylesheet">
+		<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico">
+		<script type="text/javascript" charset="UTF-8" src="../js/all.js"></script>
+	</head>
+	
+	<body>
+		
+		<section id="box-content">
+			
+			<header id="box-header">
+				<div id="box-menu"><a href="login.html" class="a-txt">Logar</a> <a href="cadastrar-cliente.html" class="a-txt">Cadastrar</a></div>
+				<img src="../img/logo-ibigboss-color.png" class="logo" />
+			</header>
+			
+			
+			
+			<section class="box-content">
+				
+				<p class="title-black cleantop">Cadastrar Cliente</p>
+				<div class="box-group">
+					
+					<label class="top-clean cleantop">Nome</label>
+					<input class="input-large" name="nome" />
+					
+					
+					<label>E-mail</label>
+					<input class="input-large" name="email" />
+					
+					<label>CPF</label>
+					<input class="input-large" name="cpf" onkeyup="javascript:somente_numero(this);" onkeypress="mascara(this,'###.###.###-##')" maxlength="14" />
+					
+					
+					<label>RG</label>
+					<input class="input-large" onkeyup="javascript:somente_numero(this);" name="rg" />
+					
+					<label>Data de nascimento</label>
+					<input id="date" name="dataNascimento" class="input-large" type="date">
+					
+					<label>Sexo</label>
+					<div>
+					<input type="radio" id="sexo" name="sexo" value="M"><span class="text-black">Maculino</span>
+					</div>
+					<div>
+					<input type="radio" id="sexo" name="sexo" value="F"><span class="text-black">Feminino</span>
+					</div>
+					
+					<label class="label">Telefone</label>
+					<input class="input-large" onkeyup="javascript:somente_numero(this);" onkeypress="mascara(this,'##-#######')" maxlength="12" name="telefone" />
+					
+					<label class="label">CEP</label>
+					<input class="input-large" name="cep" onkeyup="javascript:somente_numero(this);" onkeypress="mascara(this,'##.###-###')" maxlength="10" />
+					
+					<label class="label">Logradouro</label>
+					<input class="input-large" name="logradouro" />
+					
+					<label class="label">Número</label>
+					<input class="input-large" onkeyup="javascript:somente_numero(this);" name="num" />
+					
+					<label class="label">Complememto</label>
+					<input class="input-large" name="complemento" />
+					
+					<label class="label">Bairro</label>
+					<input class="input-large" name="bairro" />
+					
+					<label class="label">Estado</label>
+					<input class="input-large" name="UF" />
+					
+					<label class="label">Cidade</label>
+					<input class="input-large" name="cidade" />
+					
+					<label class="label">Senha</label>
+					<input class="input-large" type="password" name="senha" />
+					
+					<label class="label">Código de indicação</label>
+					<input class="input-large" name="cod" />
+					
+					
+					<p class="cleanbottom">
+						<input type="submit" onclick="window.location.href='#'" value="SALVAR" class="submit cleantopbottom" />
+					</p>
+				</div>
+			</section>
+			
+		</section>
+        <footer id="box-footer">
+            I BIG BOSS - Copyright © 2020 - Todos os direitos reservados
+		</footer>
+		
+	</body>
+</html>
