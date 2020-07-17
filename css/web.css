@@ -3,7 +3,7 @@ body{
 	padding:0;
 	background:#FFF;
 	background-image: url('../img/bg-geral.jpg');
-    background-position: 20px left fixed;
+    background-position: 20px left;
     background-repeat: no-repeat;
 	background-attachment:fixed;
 }
@@ -106,7 +106,11 @@ p{
 	cursor:pointer;
 }	
 
-
+.icon-aviso{
+	float:left;
+	height:19px;
+	margin-right:5px;
+}
 
 .logo{
 	height:65px;
@@ -138,6 +142,51 @@ p{
 	border-radius:18px;
 }
 
+.box-aviso-pago{
+	display:block;
+	background:#caffd7;
+	color:green;
+	font:bold 1em 'Muli', sans-serif;
+	padding:6px;
+}
+.box-aviso-naopago{
+	display:block;
+	background:#ffe0e0;
+	color:red;
+	font:bold 1em 'Muli', sans-serif;
+	padding:6px;
+}
+.box-aviso-pendente{
+	display:block;
+	background:#fff4ca;
+	color:#dd9001;
+	font:bold 1em 'Muli', sans-serif;
+	padding:6px;
+}
+
+
+.box-aviso{
+	background:#fffaab;
+	padding:5px;
+	font:bold 1em 'Muli', sans-serif;
+	color:#4a5261;
+}
+
+
+.circle-name{
+	font:bold 1.3em 'Muli', sans-serif;
+	color:#FFF;
+	background:#f90;
+	border-radius:50%;
+	float:left;
+	padding:14px;
+	width:25px;
+	height:auto;
+	text-align:center;
+	margin-right:15px;
+	margin-bottom:20px;
+}
+
 
 .title-black{
 	font:normal 1.5em 'Montserrat', sans-serif;
@@ -161,6 +210,12 @@ p{
 	line-height:25px;
 }
 
+
+.text-black-bold{
+    font:bold 1em 'Muli', sans-serif;
+	color:#4A5261;
+	line-height:25px;
+}
 
 .text-leg{
     font:normal 0.8em 'Muli', sans-serif;
@@ -201,7 +256,9 @@ p{
 	margin-right:15px;
 	border:1px solid #CCC;
 }
-
+img.logo-item:hover{
+	filter:brightness(96%);
+}
 
 .a-txt{
 	font:normal 1em 'Muli', sans-serif;
